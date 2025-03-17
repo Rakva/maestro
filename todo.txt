@@ -1,0 +1,26 @@
+what is left to do:
+
+change name in the TAB. (React App -> Maestro+)
+
+Theory or Features: (Features with slides would be better, IMO)
+
+Jeremy: Maybe you can add an example of warning raised and example of type of analyis for attacker profile
+Lea: vertex information what are the different fields ? what do they represent ? 
+     Maybe a text section to explain warnings and attacker profiles
+
+Objective : 
+
+Lea: You speak about Maestro here without introducing the software/project, what is an account manager ?
+
+Maestro:
+
+Lea: For each picture which represents a feature, i would add some details, description bellow the title.
+I would also reduce the speed of picture stream
+
+INSA Rennes:
+
+what was last year work, what are the project phases, what we focussed on this year, who are our supervisors etc
+
+Style:
+
+Augustin: draggable background??
