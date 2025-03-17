@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/maestro/static/css/main.62e800a0.css",
+    "main.js": "/maestro/static/js/main.6928a826.js",
+    "static/js/453.4f57d60b.chunk.js": "/maestro/static/js/453.4f57d60b.chunk.js",
+    "static/media/home_empty.png": "/maestro/static/media/home_empty.75129c8fdacf0ae437a9.png",
+    "static/media/maestro_logo.png": "/maestro/static/media/maestro_logo.43591737f3e4fae2b63c.png",
+    "static/media/maestro_warnings_on_Screen.png": "/maestro/static/media/maestro_warnings_on_Screen.bd1caca09c35b18dffc3.png",
+    "static/media/maestro_warnings.png": "/maestro/static/media/maestro_warnings.838b79f3b844241465c7.png",
+    "static/media/maestro_warnings_selection.png": "/maestro/static/media/maestro_warnings_selection.e62049a6a9e4e6594e3e.png",
+    "static/media/maestro_home.png": "/maestro/static/media/maestro_home.df551d1e849491237de6.png",
+    "static/media/maestro_8.png": "/maestro/static/media/maestro_8.f96a56bfc6e2c54f89cd.png",
+    "static/media/maestro_passwords.png": "/maestro/static/media/maestro_passwords.8f88e8d3cefcef1232dc.png",
+    "static/media/context_image.png": "/maestro/static/media/context_image.237bb81479966fb5f30c.png",
+    "static/media/maestro_4.png": "/maestro/static/media/maestro_4.09e6b7395b62c1ba2ea3.png",
+    "static/media/maestro_7.png": "/maestro/static/media/maestro_7.ce73e8ddb7b49107685f.png",
+    "static/media/maestro_3.png": "/maestro/static/media/maestro_3.9bd0179fd2604a8e8f06.png",
+    "static/media/maestro_2.png": "/maestro/static/media/maestro_2.c804295a4a87e336c18c.png",
+    "static/media/maestro_1.png": "/maestro/static/media/maestro_1.bcd7f01520b54e0aa424.png",
+    "static/media/maestro_6.png": "/maestro/static/media/maestro_6.13fbda314fffbb4dd6b3.png",
+    "static/media/lock.png": "/maestro/static/media/lock.4887a6d720aa3c5abc2c.png",
+    "static/media/maestro_5.png": "/maestro/static/media/maestro_5.c038e49ecac801e9b46c.png",
+    "static/media/awareness.png": "/maestro/static/media/awareness.12f8d6727ebbcb1a50c4.png",
+    "static/media/context_image_recovery_2.png": "/maestro/static/media/context_image_recovery_2.3860ee9d5b8d001d0dd1.png",
+    "static/media/context_image_recovery_1.png": "/maestro/static/media/context_image_recovery_1.a0e2c5b0c9115534c942.png",
+    "static/media/Insa_rennes_logo.svg": "/maestro/static/media/Insa_rennes_logo.0be52b9d6881625e43bd45cdeafee69d.svg",
+    "index.html": "/maestro/index.html",
+    "static/media/menu.svg": "/maestro/static/media/menu.d80675976eb3e9478e59aa5bd6375156.svg",
+    "static/media/close.svg": "/maestro/static/media/close.6f68decd459a9701ee96041ec96daeb4.svg",
+    "main.62e800a0.css.map": "/maestro/static/css/main.62e800a0.css.map",
+    "main.6928a826.js.map": "/maestro/static/js/main.6928a826.js.map",
+    "453.4f57d60b.chunk.js.map": "/maestro/static/js/453.4f57d60b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62e800a0.css",
+    "static/js/main.6928a826.js"
+  ]
+}
