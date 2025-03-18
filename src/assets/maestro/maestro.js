@@ -13,62 +13,57 @@ import maestro_warnings_selection from "../../assets/maestro/maestro_warnings_se
 import maestro_warnings_on_screen from "../../assets/maestro/maestro_warnings_on_Screen.png";
 
 const maestro_content = {
-    text: [
-        "Maestro is the name of a project started in 2023 by fourth-year students at INSA Rennes specializing in computer science. This project is supervised by Ms. Barbara Fila, a lecturer at INSA Rennes and a researcher at IRISA, specializing in security. This project is carried out in collaboration with Mr. Saša Radomiroviÿ, a researcher at the University of Surrey specializing in formal security modeling.",
-        "",
-        "",
-    ],
     pictures: [
     {
-        title: "Home Page",
+        title: "Home page",
         src: maestro_home
     },
     {
-        title: "Access Graph",
+        title: "Access graph",
         src: maestro_1
     },
     {
-        title: "Vertex Creation",
+        title: "Resource creation",
         src: maestro_2
     },
     {
-        title: "Vertex Details",
+        title: "Resource details",
         src: maestro_3
     },
     {
-        title: "Vertex Saving",
+        title: "Resource saving",
         src: maestro_4
     },
     {
-        title: "New Access Graph",
+        title: "New access graph",
         src: maestro_5
     },
     {
-        title: "Vertex Modification",
+        title: "Resource modification",
         src: maestro_6
     },
     {
-        title: "Vertex Information",
+        title: "Resource information",
         src: maestro_7
     },
     {
-        title: "Vertex Principal Connection Addition",
+        title: "Resource principal connection addition",
         src: maestro_8
     },
     {
-        title: "Vertex Filtering By Password Type",
+        title: "Resource filtering by password type",
         src: maestro_passwords
     },
     {
-        title: "Vertex Warning Tab",
+        title: "Resource warning tab",
         src: maestro_warnings
     },
     {
-        title: "Vertex Warning Selection",
+        title: "Resource warning selection",
         src: maestro_warnings_selection
     },
     {
-        title: "Vertex Warning Display on Screen",
+        title: "Resource warning display on screen",
         src: maestro_warnings_on_screen
     },
 ]

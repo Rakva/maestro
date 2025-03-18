@@ -10,8 +10,19 @@
 .objective_text_h1{
     text-align: center;
 }
+.objetcive_pic_container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .objective_img{
-    width: 300px;
+    width: 250px;
+}
+.objective_pic_text{
+    font-size: 24px;
+    font-weight: 700;
 }
 .objective_container{
     width: 40%;
@@ -23,9 +34,11 @@
 }
 .objective_text{
     width: 100%;
-}
-.objective_text{
+    height: 40%;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .objective_list{
     width: 80%;
@@ -34,7 +47,9 @@
     align-items: start;
 }
 .objective_list_item{
-    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 1200px){

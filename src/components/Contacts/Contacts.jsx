@@ -19,6 +19,21 @@ function Contacts({setContactsRef}){
                     </div>
             })}
         </div>
+        <div className="supervisors">
+            <div className="supervisors_intro">{insa.supervisor_text}</div>
+            <div className="contacts_container">
+                {insa.supervisors.map((supervisor, index)=>{
+                    return <div className="team_memeber" key={index}>
+                        <a href={supervisor.link} className="team_member_linked_in ">
+                            <h4>
+                            {supervisor.level + " "+ supervisor.name}
+                            </h4>
+                        </a>
+                        <h5 className="team_member_role">Supervisor</h5>
+                    </div>   
+                })} 
+            </div>    
+        </div>
         <div className="insa_container">
             <div className="insa_name">{insa.name}</div>
             <div className="insa_text">{insa.text}</div>

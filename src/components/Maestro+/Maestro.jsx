@@ -10,13 +10,6 @@ function Maestro({setMaestroRef}){
 
     return <div className="maestro" ref={my_maestro}>
         <h1 className="maestro_title">Maestro+</h1>
-        <div className="maestro_text">
-            {maestro_content.text.map((text,index)=>{
-                return <span className="maestro_text_span" key={index}>
-                    {text}
-                </span>
-            })}
-        </div>
         <Carousel className="maestro_carousel_main" indicators={true} data-bs-theme="dark" interval={3000}>
             {
                 maestro_content.pictures.map((element,index)=>{

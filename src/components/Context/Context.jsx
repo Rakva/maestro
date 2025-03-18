@@ -11,8 +11,7 @@ function Context({setContextRef}){
         <div className="context_container">
             <h1 className="context_title">Context</h1>
             <div className="context_text">
-                Real life attacks
-                confirm that accessing somebody else's account by answering a security question, using a secondary account, or
+                Real life attacks confirm that accessing somebody else's account by answering a security question, using a secondary account, or
                 calling a customer service center is often much easier and less time consuming than cracking the actual account's
                 password. 
             </div>

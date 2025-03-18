@@ -1,7 +1,7 @@
 const theory_text = [
     {
         title: "Basic concepts",
-        text: "Users are persons that interact with services and have accounts with these services. An account can be accessed by providing credentials. We shall take a broad view of these concepts to also model the physical world. An account provides access to a service or resource, which can be digital or physical. Credentials can also be digital or physical, and must be presented to access, or unlock, an account.",
+        text: "Users are persons that interact with services and have accounts with these services. An account can be accessed by providing credentials. We shall take a broad view of these concepts to also model the physical world. An account provides access to a service or Resource, which can be digital or physical. Credentials can also be digital or physical, and must be presented to access, or unlock, an account.",
         type: "theory"
     },
     {
@@ -11,17 +11,17 @@ const theory_text = [
     },
     {
         title: "Graph model",
-        text: "We model a user’s account setup as an account access graph. Vertices represent credentials or accounts. We model the relation of providing access to a vertex v as follows. When v represents an account, we consider the access mechanisms ofv. We draw edges of the same color from vertices that are all needed to access the account. We draw edges of different colors from vertices that represent alternative access methods. Whenv represents a credential, we draw an edge tov when an account provides access to that credential. For example, a password manager is an account that provides access to its stored passwords.",
+        text: "We model a user’s account setup as an account access graph. Vertices represent credentials or accounts. We model the relation of providing access to a Resource v as follows. When v represents an account, we consider the access mechanisms ofv. We draw edges of the same color from vertices that are all needed to access the account. We draw edges of different colors from vertices that represent alternative access methods. Whenv represents a credential, we draw an edge tov when an account provides access to that credential. For example, a password manager is an account that provides access to its stored passwords.",
         type: "details"
     },
     {
         title: "Graph model",
-        text: "The semantics of colors is local to each target vertex: whether two edges have the same color is only relevant if they are edges to the same target vertex. We reuse colors for simplicity in our examples for different target vertices. We use different types of lines (dashed, dotted, and solid) for different colors to distinguish them also in the black-and-white version of this paper.",
+        text: "The semantics of colors is local to each target Resource: whether two edges have the same color is only relevant if they are edges to the same target Resource. We reuse colors for simplicity in our examples for different target vertices. We use different types of lines (dashed, dotted, and solid) for different colors to distinguish them also in the black-and-white version of this paper.",
         type: "details"
     },
     {
         title: "Access sets",
-        text: "In this section, we define an account’s access sets, which denote the minimal sets of credentials that are sufficient to provide access to the account. An account’s access sets model the possibilities an attacker has to compromise the account. We use an account’s access base to compute a security score for that account, enabling a detailed security evaluation. We first define what it means that a set of vertices provides access to another vertex. A set of vertices V directly provides access to a vertex v if it includes v or includes, for some color c, all vertices with c-colored edge to v.",
+        text: "In this section, we define an account’s access sets, which denote the minimal sets of credentials that are sufficient to provide access to the account. An account’s access sets model the possibilities an attacker has to compromise the account. We use an account’s access base to compute a security score for that account, enabling a detailed security evaluation. We first define what it means that a set of vertices provides access to another Resource. A set of vertices V directly provides access to a Resource v if it includes v or includes, for some color c, all vertices with c-colored edge to v.",
         type: "theory"
     },
     {
@@ -36,7 +36,7 @@ const theory_text = [
     },
     {
         title: "Security scoring schemes",
-        text: "Asecurity scoring scheme should meaningfully measure the security of accounts. In particular, whenever one account is at least as secure as another, a scoring scheme should assign at least as high a score to the first account as to the second. We formalize this requirement. We define the notion of an account being at least as secure as another by implication. If an attacker that can access an account vertex vb can also always access another account vertex var, then we say that vb is at least as secure as va.",
+        text: "Asecurity scoring scheme should meaningfully measure the security of accounts. In particular, whenever one account is at least as secure as another, a scoring scheme should assign at least as high a score to the first account as to the second. We formalize this requirement. We define the notion of an account being at least as secure as another by implication. If an attacker that can access an account Resource vb can also always access another account Resource var, then we say that vb is at least as secure as va.",
         type: "details"
     },
     {

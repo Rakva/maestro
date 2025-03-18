@@ -1,6 +1,7 @@
 import './App.css';
 import Contacts from './components/Contacts/Contacts';
 import Context from './components/Context/Context';
+import Dictionary from './components/Dictionary/Dictionary';
 import Features from './components/Features/features';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -48,6 +49,7 @@ function App() {
         setSideMenu={setSideMenu}/>
         
       <Home setHomeRef={setHomeRef}/>
+      <Dictionary/>
       <Context setContextRef={setContextRef} />
       <Objective setObjectiveRef={setObjectiveRef}/>
       <Theory setTheoryRef={setTheoryRef}/>
