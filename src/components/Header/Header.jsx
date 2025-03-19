@@ -2,9 +2,8 @@ import maestro from "../../assets/maestro_logo.png"
 import "./header.css";
 import menuButton from "../../assets/menu.svg";
 import closeButton from "../../assets/close.svg";
-import { useState } from "react";
 
-function Header({homeRef, contextRef, objectiveRef, theoryRef, featuresRef, contactsRef, sideMenu ,setSideMenu}){
+function Header({homeRef, contextRef, objectiveRef, featuresRef, contactsRef, sideMenu ,setSideMenu}){
 
     const sections = [
         {
@@ -19,10 +18,6 @@ function Header({homeRef, contextRef, objectiveRef, theoryRef, featuresRef, cont
             name: "Objective",
             ref: objectiveRef
         
-        }, 
-        {
-            name: "Theory",
-            ref: theoryRef
         }, 
         {
             name: "Features",
