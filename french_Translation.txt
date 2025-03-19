@@ -1,0 +1,81 @@
+The security of an online account depends not only on that account's protection strength, but also on the dependencies between the different accounts that a user has : 
+
+La sécurité d’un compte en ligne dépend non seulement de la force de protection de ce compte, mais aussi des dépendances entre les différents comptes de l'utilisateur.
+
+(*You should change account manager definition *)
+
+Account ecosystem manager: This type of manager is an application that allows a user to view his entire account environment, integrating all connections between his accounts. It represents all the devices, credentials, keys and documents needed. An account ecosystem manager is based on a mathematical theory called the access graph.
+
+
+Gestionnaire d'écosystème de comptes : Ce type de gestionnaire est une application permettant à un utilisateur de visualiser l'ensemble de son environnement de comptes, intégrant toutes les connexions entre ses comptes, ses appareils, ses identifiants, ses clés et ses documents. Un gestionnaire d'écosystème de comptes s'appuie sur des fondements mathématiques nommé graphe d'accès.
+
+
+Account access graph : 
+
+An account access graph is a directed graph. Each resource represents either a credential or an account. An edge from a credential to an account denotes that the credencial is used as an authentication mechanism for that account. An edge from one account to another denotes that the first account can be used to access the second, using for example a recovery method or single sign-on.
+
+Graphe d'accès : 
+
+Un graphe d’accès est un graphe orienté. Chaque ressource représente notamment un identifiant ou un compte. Une arête à partir d'un identifiant à un compte indique que cet identifiant est utilisé comme mécanisme d’authentification à ce compte. Une arête d’un compte à un autre indique que le premier compte peut être utilisé pour accéder au second, en utilisant par exemple une méthode de récupération ou l'authentification unique.
+
+Context
+Real life attacks confirm that accessing somebody else's account by answering a security question, using a secondary account, or calling a customer service center is often much easier and less time consuming than cracking the actual account's password.
+
+Contexte : 
+
+Les attaques informatiques sont aujourd'hui un risque de la vie courante. Elles confirment que l’accès au compte d'un utilisateur peut se faire en répondant à une question de sécurité, en utilisant un compte tierce ou en appelant un centre de service client. Ces intermédiaires constituent un moyen souvent plus simple et moins long pour accéder à un compte d'un utilisateur, plutôt que de craquer le mot de passe de ce dernier.
+
+(*You should unify terms like this *)
+
+Objective
+Identifing the attacks that the user's account ecosystem is potentially subject to.
+Analyzing the user's account ecosystem under risk
+Creating an intuitive interface for creating access graphs
+
+Objectif
+Identifier les attaques auxquelles l’écosystème de comptes de l’utilisateur est potentiellement vulnérable.
+Analyser l’écosystème de compte de l’utilisateur
+Créer une interface intuitive pour créer des graphiques d’accès
+
+Theory
+From a theoretical point of view, the Maestro application is based on the foundations about access graph presented in a research-article, co-authored by Saša Radomirović.
+
+Théorie
+L’application Maestro s’appuie sur les fondements théoriques sur les graphes d'accès présentés dans l’article de recherche coécrit par Saša Radomirović.
+
+YOU SHOULD DELETE DETAILS OR SIMPLIFY the theorie slides (sorry i thought it was usefull but barbara wants it to be simplier)
+
+Features / Fonctionnalités
+
+Dynamic access graph / Graphe d'accès dynamique (*Should on the left side i think*)
+Creating a Resource / Création d'une ressource
+Menu for Resource / Menu d'une ressource
+Resource modification / Modification des informations liées à une ressource
+
+Security analysis / Analyse de sécurité
+Automatic scan / Analyse automatique
+Warning definition / Définition des avertissements
+Warnings display /Affichage des avertissements
+
+Modeling attacker profiles / Modélisation des profils d'attaquants
+Attacker profile in manual mode / Profils d'attaquant en mode manuel
+Attacker profile in automatic mode / Profils d'attaquant en mode pré-définis
+Launching analysis / Lancement de l'analyse
+
+Resources display / Affichage des ressources
+Resource creation / Création d'une ressource
+Resource details / Détails d'une ressource
+Resource modification / Modification d'une ressource
+Warning definition / Définition des avertissements
+Warning screen display / Affichage des avertissements
+
+
+(*Should be placed elsewhere above or bellow but in contacts section*)
+This project is supervised by Dr. Barbara Fila, a lecturer at INSA Rennes and a researcher at IRISA, specializing in security. This project is carried out in collaboration with Dr. Sasa Radomirovic, a researcher at the University of Surrey specializing in formal security modeling.
+
+
+Ce projet est encadré par Barbara Fila, enseignante à l’INSA de Rennes et chercheuse à l’IRISA, spécialisée en sécurité. Ce projet est mené en collaboration avec Saša Radomirović, chercheur à l’université de Surrey et spécialisé dans la modélisation formelle de la
+sécurité.
+
+
+(*Erase INSA address*)

@@ -41,7 +41,6 @@ function Contacts({setContactsRef}){
                 <img src={insa.logo} alt="insa_logo" className="insa_logo"/>
                 <div className="insa_contacts">
                     <div className="insa_contacts_address"><b>Address:</b> {insa.contacts.address}</div>
-                    <div className="insa_contacts_post"><b>Post:</b> {insa.contacts.post}</div>
                     <div className="insa_contacts_city"><b>City:</b> {insa.contacts.city}</div>
                     <div className="insa_contacts_country"><b>Country:</b> {insa.contacts.country}</div>
                     <div className="insa_contacts_number"><b>Number:</b> {insa.contacts.number}</div>
