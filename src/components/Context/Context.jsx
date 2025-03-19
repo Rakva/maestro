@@ -1,7 +1,5 @@
 import "./context.css";
-import context_image from "../../assets/context/context_image.png"
-import context_image_recovery_2 from "../../assets/context/context_image_recovery_2.png"
-import context_image_recovery_1 from "../../assets/context/context_image_recovery_1.png"
+import new_context from "../../assets/context/new.png"
 import { useRef } from "react";
 
 function Context({setContextRef}){
@@ -17,8 +15,7 @@ function Context({setContextRef}){
             </div>
         </div>
         <div className="context_image_container">
-            <img src={context_image_recovery_2} className="context_img" alt="context_img_Recovery_2"/>
-            <img src={context_image_recovery_1} className="context_img" alt="context_img_Recovery_1"/>
+            <img src={new_context} className="context_img" alt="new context pic"/>
         </div>
 
     </div>

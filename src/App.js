@@ -5,7 +5,6 @@ import Dictionary from './components/Dictionary/Dictionary';
 import Features from './components/Features/features';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import Maestro from './components/Maestro+/Maestro';
 import Objective from './components/Objective/Objective';
 import SideMenu from './components/SideMenu/SideMenu';
 import Theory from './components/Theory/Theory';
@@ -19,7 +18,6 @@ function App() {
   const [objectiveRef, setObjectiveRef] = useState(useRef(null));
   const [theoryRef, setTheoryRef] = useState(useRef(null));
   const [featuresRef, setFeaturesRef] = useState(useRef(null));
-  const [maestroRef, setMaestroRef] = useState(useRef(null));
   const [contactsRef, setContactsRef] = useState(useRef(null));
   const [sideMenu, setSideMenu] = useState(false);
 
@@ -31,7 +29,6 @@ function App() {
         objectiveRef={objectiveRef} 
         theoryRef={theoryRef} 
         featuresRef={featuresRef} 
-        maestroRef={maestroRef}
         contactsRef={contactsRef}
         sideMenu={sideMenu}
         setSideMenu={setSideMenu}
@@ -43,7 +40,6 @@ function App() {
         objectiveRef={objectiveRef} 
         theoryRef={theoryRef} 
         featuresRef={featuresRef} 
-        maestroRef={maestroRef}
         contactsRef={contactsRef} 
         sideMenu={sideMenu} 
         setSideMenu={setSideMenu}/>
@@ -54,7 +50,6 @@ function App() {
       <Objective setObjectiveRef={setObjectiveRef}/>
       <Theory setTheoryRef={setTheoryRef}/>
       <Features setFeaturesRef={setFeaturesRef}/>
-      <Maestro setMaestroRef={setMaestroRef}/>
       <Contacts setContactsRef={setContactsRef}/>
 
     </div>

@@ -4,9 +4,10 @@
     height: 500px;
     display: flex;
     align-items: center;
-    background-image: url("../../assets/home_empty.png");
-    background-repeat: repeat;
-    background-size: 33.3%;
+    background-image: url("../../assets/background.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .home_container{
     width: 100%;

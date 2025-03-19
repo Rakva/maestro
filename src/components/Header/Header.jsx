@@ -4,7 +4,7 @@ import menuButton from "../../assets/menu.svg";
 import closeButton from "../../assets/close.svg";
 import { useState } from "react";
 
-function Header({homeRef, contextRef, objectiveRef, theoryRef, featuresRef, maestroRef, contactsRef, sideMenu ,setSideMenu}){
+function Header({homeRef, contextRef, objectiveRef, theoryRef, featuresRef, contactsRef, sideMenu ,setSideMenu}){
 
     const sections = [
         {
@@ -28,10 +28,6 @@ function Header({homeRef, contextRef, objectiveRef, theoryRef, featuresRef, maes
             name: "Features",
             ref: featuresRef
         
-        }, 
-        {
-            name: "Maestro+",
-            ref: maestroRef
         }, 
         {
             name:"Contacts",
