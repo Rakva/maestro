@@ -1,55 +1,68 @@
-const features = [
-    {
-        title: "Security  analysis",
-        list: [
-            {
-                text: "Automatic scan",
-                id: 0
-            },
-            {
-                text: "Displaying warnings",
-                id: 0
-            },
-            {
-                text: "Warning definition",
-                id: 0
-            }
-        ],
-    },
-    {
-        title: "Modeling attacker",
-        list: [
-            {
-                text: "Attacker profile in manual mode",
-                id: 0
-            },
-            {
-                text: "Attacker profile in automatic mode",
-                id: 0
-            },
-            {
-                text: "Launching analysis",
-                id: 0
-            }
-        ]
-    },
-    {
-        title: "Dynamic access graph",
-        list:  [
-            {
-                text: "Creating a Resource",
-                id: 0
-            },
-            {
-                text: "Menu for Resource",
-                id: 0
-            },
-            {
-                text: "Resource modification",
-                id: 0
-            }
-        ]
-    }
-];
+import maestro_home from "../../assets/maestro/maestro_home.png";
+import maestro_2 from "../../assets/maestro/maestro_2.png";
+import maestro_4 from "../../assets/maestro/maestro_4.png";
+import maestro_warnings from "../../assets/maestro/maestro_warnings.png";
+import maestro_warnings_on_screen from "../../assets/maestro/maestro_warnings_on_Screen.png";
+import text from "../lang/text";
 
-export default features;
+function Features_Func(lang){
+
+    const features = [
+        {
+            title: text.maestroPlus.dynAccGra[`${lang}`],
+            list:  [
+                {
+                    text: text.maestroPlus.creRes[`${lang}`],
+                    src: maestro_2
+                },
+                {
+                    text: text.maestroPlus.menRes[`${lang}`],
+                    src: maestro_home
+                },
+                {
+                    text: text.maestroPlus.resMod[`${lang}`],
+                    src: maestro_4
+                }
+            ]
+        },
+        {
+            title: text.maestroPlus.secAna[`${lang}`],
+            list: [
+                {
+                    text: text.maestroPlus.autSca[`${lang}`],
+                    src: ""
+                },
+                {
+                    text: text.maestroPlus.disWar[`${lang}`],
+                    src: maestro_warnings_on_screen
+                },
+                {
+                    text: text.maestroPlus.wasDef[`${lang}`],
+                    src: maestro_warnings
+                }
+            ],
+        },
+        {
+            title: text.maestroPlus.modAtt[`${lang}`],
+            list: [
+                {
+                    text: text.maestroPlus.manmod[`${lang}`],
+                    src: ""
+                },
+                {
+                    text: text.maestroPlus.autmode[`${lang}`],
+                    src: ""
+                },
+                {
+                    text: text.maestroPlus.lauana[`${lang}`],
+                    src: ""
+                }
+            ]
+        }
+    ];
+
+    return features;
+}
+
+
+export default Features_Func;

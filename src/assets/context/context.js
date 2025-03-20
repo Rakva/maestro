@@ -1,5 +1,5 @@
-import new from "./new.png";
+import graph from "./graph.png";
 
-const  context_pic = new;
+const  context_pic = graph;
 
 export default context_pic;

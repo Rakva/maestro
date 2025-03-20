@@ -1,8 +1,21 @@
+
+Objective
+Identifing the attacks that the user's account ecosystem is potentially subject to.
+Analyzing the user's account ecosystem under risk
+Creating an intuitive interface for creating access graphs
+
+Objectif
+Identifier les attaques auxquelles l’écosystème de comptes de l’utilisateur est potentiellement vulnérable.
+Analyser l’écosystème de compte de l’utilisateur
+Créer une interface intuitive pour créer des graphiques d’accès
+
+
+
 The security of an online account depends not only on that account's protection strength, but also on the dependencies between the different accounts that a user has : 
 
 La sécurité d’un compte en ligne dépend non seulement de la force de protection de ce compte, mais aussi des dépendances entre les différents comptes de l'utilisateur.
 
-(*You should change account manager definition *)
+(*You should change account manager definition *) <- DONE
 
 Account ecosystem manager: This type of manager is an application that allows a user to view his entire account environment, integrating all connections between his accounts. It represents all the devices, credentials, keys and documents needed. An account ecosystem manager is based on a mathematical theory called the access graph.
 
@@ -26,16 +39,6 @@ Contexte :
 Les attaques informatiques sont aujourd'hui un risque de la vie courante. Elles confirment que l’accès au compte d'un utilisateur peut se faire en répondant à une question de sécurité, en utilisant un compte tierce ou en appelant un centre de service client. Ces intermédiaires constituent un moyen souvent plus simple et moins long pour accéder à un compte d'un utilisateur, plutôt que de craquer le mot de passe de ce dernier.
 
 (*You should unify terms like this *)
-
-Objective
-Identifing the attacks that the user's account ecosystem is potentially subject to.
-Analyzing the user's account ecosystem under risk
-Creating an intuitive interface for creating access graphs
-
-Objectif
-Identifier les attaques auxquelles l’écosystème de comptes de l’utilisateur est potentiellement vulnérable.
-Analyser l’écosystème de compte de l’utilisateur
-Créer une interface intuitive pour créer des graphiques d’accès
 
 Theory
 From a theoretical point of view, the Maestro application is based on the foundations about access graph presented in a research-article, co-authored by Saša Radomirović.
