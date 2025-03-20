@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/maestro/static/css/main.3358b788.css",
-    "main.js": "/maestro/static/js/main.11e760cf.js",
+    "main.css": "/maestro/static/css/main.91f98682.css",
+    "main.js": "/maestro/static/js/main.0cca10b3.js",
     "static/js/453.4f57d60b.chunk.js": "/maestro/static/js/453.4f57d60b.chunk.js",
-    "static/media/background.png": "/maestro/static/media/background.1184d6ebb1a9e40a49a0.png",
     "static/media/maestro_logo.png": "/maestro/static/media/maestro_logo.43591737f3e4fae2b63c.png",
     "static/media/maestro_warnings_on_Screen.png": "/maestro/static/media/maestro_warnings_on_Screen.bd1caca09c35b18dffc3.png",
-    "static/media/maestro_warnings.png": "/maestro/static/media/maestro_warnings.838b79f3b844241465c7.png",
-    "static/media/maestro_home.png": "/maestro/static/media/maestro_home.df551d1e849491237de6.png",
+    "static/media/maestro_warnings.png": "/maestro/static/media/maestro_warnings.7dc3dc7230cd858e7192.png",
+    "static/media/maestro_home.png": "/maestro/static/media/maestro_home.bab15bde924ab816fbf3.png",
     "static/media/graph.png": "/maestro/static/media/graph.380a0e7b36a2f075be1f.png",
-    "static/media/maestro_4.png": "/maestro/static/media/maestro_4.09e6b7395b62c1ba2ea3.png",
-    "static/media/maestro_2.png": "/maestro/static/media/maestro_2.c804295a4a87e336c18c.png",
+    "static/media/maestro_3.png": "/maestro/static/media/maestro_3.9bd0179fd2604a8e8f06.png",
     "static/media/Insa_rennes_logo.svg": "/maestro/static/media/Insa_rennes_logo.0be52b9d6881625e43bd45cdeafee69d.svg",
     "index.html": "/maestro/index.html",
     "static/media/menu.svg": "/maestro/static/media/menu.d80675976eb3e9478e59aa5bd6375156.svg",
     "static/media/close.svg": "/maestro/static/media/close.6f68decd459a9701ee96041ec96daeb4.svg",
-    "main.3358b788.css.map": "/maestro/static/css/main.3358b788.css.map",
-    "main.11e760cf.js.map": "/maestro/static/js/main.11e760cf.js.map",
+    "main.91f98682.css.map": "/maestro/static/css/main.91f98682.css.map",
+    "main.0cca10b3.js.map": "/maestro/static/js/main.0cca10b3.js.map",
     "453.4f57d60b.chunk.js.map": "/maestro/static/js/453.4f57d60b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3358b788.css",
-    "static/js/main.11e760cf.js"
+    "static/css/main.91f98682.css",
+    "static/js/main.0cca10b3.js"
   ]
 }
