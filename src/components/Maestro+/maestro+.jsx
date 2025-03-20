@@ -23,13 +23,17 @@ function MaestroPlus({setMaestroReference, lang}){
     }
     return <div className="maestro_plus" style={{height: picOn ? 1100 : 600}} ref={maestro_reference}>
         <h1 className="maestro_plus_title">{text.maestroPlus.title[`${lang}`]}</h1>
-        <span>
+        <span className="maestro_plus_subtext">
         {text.maestroPlus.subtext.part1[`${lang}`]}{' '}
-        <a href="https://dl.acm.org/doi/10.1145/3319535.3354193" className="theory_intro_link">{text.maestroPlus.subtext.part2[`${lang}`]}</a>, 
+        <b>{text.maestroPlus.subtext.part2[`${lang}`]}</b> {' '}
         {text.maestroPlus.subtext.part3[`${lang}`]} {' '}
-        <b>{text.maestroPlus.subtext.part4[`${lang}`]}</b> {' '}
-        {text.maestroPlus.subtext.part5[`${lang}`]} {' '}<b>{text.maestroPlus.subtext.part6[`${lang}`]}</b>{' '}
-        {text.maestroPlus.subtext.part7[`${lang}`]}:
+        <a href="https://dl.acm.org/doi/10.1145/3319535.3354193" className="theory_intro_link">
+            {text.maestroPlus.subtext.part4[`${lang}`]}
+        </a> {' '}
+        {text.maestroPlus.subtext.part5[`${lang}`]} {' '}
+        {text.maestroPlus.subtext.part6[`${lang}`]}
+
+        
         </span>
         <div className="maestro_plus_feat">
             {

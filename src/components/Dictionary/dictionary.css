@@ -33,3 +33,17 @@
     text-align: center;
     width: 80%;
 }
+.dictionary_pause{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9;
+    opacity: 0;
+    cursor: pointer;
+}
+.dictionary_pause:hover{
+    opacity: 1;
+}
+.dictionary_pause_img{
+
+}

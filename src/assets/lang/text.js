@@ -21,9 +21,9 @@ const text = {
             GEO: "მაესტრო+"
         },
         contacts: {
-            EN: "Contacts",
-            FR: "Contacts",
-            GEO: "კონტაქტები"
+            EN: "Project",
+            FR: "Projet",
+            GEO: "პროექტი"
         }
     },
     home: {
@@ -58,9 +58,21 @@ const text = {
                 GEO: "ანგარიშის შეღწევის გრაფიკი"
             },
             explanation: {
-                EN: "An account access graph is a directed graph. Each Resource represents either a credential or an account. An edge from a credential to an account denotes that the credential is used in an authentication mechanism of that account. An edge from one account to another denotes that the first account can be used to access the second, using for example a recovery method or single sign-on.",
-                FR: "Un graphe d'accès est un graphe orienté. Chaque ressource représente notamment un identifiant ou un compte. Une arête à partir d'un identifiant à un compte indique que cet identifiant est utilisé comme mécanisme d'authentification à ce compte. Une arête d'un compte à un autre indique que le premier compte peut être utilisé pour accéder au second, en utilisant par exemple une méthode de récupération ou l'authentification unique.",
-                GEO: "ანგარიშის შეღწევის გრაფიკი არის მიმართული გრაფიკი. თითოეული რესურსი წარმოადგენს ანგარიშს ან რწმუნებათა სიგელებს. ხაზი ანგარიშსა და რწმუნებათა სიგელებს შორის მიუთითებს რომ ეს ინფორმაცია გამოყენებულია ავთავთენტიფიკაციისთვის. ხაზი ორ ანგარიშს შორის მიუთითებს რომ პირველი ანგარიში გამოიყენება მეორე ანგარიშზე შესაღწევად. მაგალითად, მეორე ანგარიშის აღდგენისთვის."
+                EN: "Graphical representation of a user account ecosystem.",
+                FR: "???",
+                GEO: "მომხმარებლის ანგარიშის ეკოსისტემის გრაფიკული წარმოდგენა"
+            }
+        },
+        {
+            term: {
+                EN: "User account ecosystem",
+                FR: "???",
+                GEO: "მომხმარებლის ანგარიშის ეკოსისტემა"
+            },
+            explanation: {
+                EN: "All accounts of a user as well as devices, credentials, keys and other resources necessary to access them, together with connections between them.",
+                FR: "???",
+                GEO: "მომხმარებლის ყველა ანგარიში, მოწყობილობებთან, გასაღებებთან და სხვა რესურსებთან ერთად, რომლებიც საჭიროა ანგარიშზე შესაღწევად და კავშირი მათ შორის."
             }
         },
         {
@@ -70,54 +82,61 @@ const text = {
                 GEO: "ანგარიშის ეკოსისტემის მენეჯერი"
             },
             explanation: {
-                EN: "This type of manager is an application that allows a user to view his entire account environment, integrating all connections between his accounts. It represents all the devices, credentials, keys and documents needed. An account ecosystem manager is based on a mathematical theory called the access graph.",
-                FR: "Ce type de gestionnaire est une application permettant à un utilisateur de visualiser l'ensemble de son environnement de comptes, intégrant toutes les connexions entre ses comptes, ses appareils, ses identifiants, ses clés et ses documents. Un gestionnaire d'écosystème de comptes s'appuie sur des fondements mathématiques nommé graphe d'accès.",
-                GEO: "ამ ტიპის მენეჯერი არის აპლიკაცია რომელიც საშუალებას აძლევს მომხმარებელს დააკვირდეს თავის სრული ანგარიშების გარემოს, რომელიც ასახავს ანგარიშებს შორის კავშირებს. მასზე გამოსახულია ყველა მოწყობილება, რწმუნებათა სიგელები, გასაღებები და დოკუმენტები რაც საჭიროა ანგარიშისთვის. ანგარიშის ეკოსისტემის მენეჯერი დაფუძვნებულია მათემატიკურ თეორიაზე სახელად - შეღწევის გრაფიკი"
-            }
+                EN: "An application allowing a user to manage and analyze their account ecosystem.",
+                FR: "???",
+                GEO: "აპლიკაცია, რომელიც საშუალებას აძლევს მომხმარებელს მართოს და გაანალიზოს თავიანთი ანგარიშის ეკოსისტემა."
+            },
+        },
+        {
+            term: {
+                EN: "Automatic scan",
+                FR: "Analyse automatique",
+                GEO: "ავტომატური სკანირება"
+            },
+            explanation: {
+                EN: "After each modification software automatically scans database, computes result and updates the graph.",
+                FR: "???",
+                GEO: "თითოეული ცვლილების შემდეგ, პროგრამა ავტომატურად აანალიზებს მონაცემთა ბაზას, გამოითვლის შედეგს და განაახლებს გრაფიკს."
+            },
         }
     ],
     maestroPlus: {
         title: {
-            EN: "Welcome to Maestro+",
-            FR: "Bienvenue sur Maestro+",
-            GEO: "გაიცანით Maestro+"
+            EN: "Maestro+",
+            FR: "Maestro+",
+            GEO: "Maestro+"
         },
         subtext: {
           part1: {
-            EN: "New version of Maestro software, developed by 4th year students at INSA Rennes. Maestro application is based on the foundations presented in ",
+            EN: "Maestro+ is an account manager, new version of Maestro software. The objective of Maestro+ is following: ",
             FR: "???",
-            GEO: "მაესტროს აპლიკაციის ახალი ვერსია, რომელიც განვითარებულია INSA Rennes-ის მე-4 კურსის სტუდენტების მიერ. მაესტროს აპლიკაცია შექმნილია მოსაზრებებზე, რომელიც წარმოდგენილია "
+            GEO: "Maestro+ არის ანგარიშის მართვის აპლიკაცია, რომელიც Maestro-ს ახალი ვერსია. Maestro+ მიზნებია:"
           },
           part2: {
-            EN: "research-article",
-            FR: "???",
-            GEO: "ნაშრომში"
-          },
-          part3: {
-            EN: "co-authored by Sasa Radomirovic. The objective of Maestro+ is following:",
-            FR: "",
-            GEO: ", რომლის თანა ავტორია საშა რადომიროვიჩი. Maestro+ მიზნებია: "
-          },
-          part4: {
             EN: "identifing the attacks that the user's account ecosystem is potentially subject to, Analyzing the user's account ecosystem under risk and creating intuitive interface for access graphs.",
             FR: "???",
             GEO: "ამოიცნოს შეტევები რომელიც პოტენციურად ემუქრება მომხმარებლის ანგარიშის ეკოსისტემას, გაანალიზოს მომხმარებლის ანგარიშის ეკოსისტემა რისკებზე და შექმნას ინტუიციური ინტერფეისი შეღწევის გრაფიკისთვის."
           },
-          part5: {
-            EN: "Based on objective, team oriented on developing",
-            FR: "???",
-            GEO: "მიზნებზე დაყრდნობით, ჯგუფმა მიმართულება აიღო განევითარებინა"
-          },
-          part6: {
-            EN: "three feature",
-            FR: "???",
-            GEO: "3 კატეგორიის ფუნქციონალები"
-          },
-          part7: {
-            EN: "categories",
+          part3: {
+            EN: "Application is based on ",
             FR: "???",
             GEO: ""
           },
+          part4: {
+            EN: "research-article",
+            FR: "???",
+            GEO: "???"
+          },
+          part5: {
+            EN: `"User Account Access Graphs", written by Sven Hammann, Saša Radomirović, Ralf Sasse, David Basin. `,
+            FR: "???",
+            GEO: "???"
+          },
+          part6: {
+            EN: "The main features of Maestro+ are: ",
+            FR: "???",
+            GEO: "Maestro+ მთავარი ფუნქციებია: "
+          }
         },
         secAna: {
             EN: "Security  analysis",
@@ -127,7 +146,7 @@ const text = {
         autSca: {
             EN: "Automatic scan",
             FR: "Analyse automatique",
-            GEO: "აუტომატური სკანირება"
+            GEO: "ავტომატური სკანირება"
         },
         disWar: {
             EN: "Displaying warnings",
@@ -135,14 +154,14 @@ const text = {
             GEO: "გარფთხილებების გამოსახვა"
         },
         wasDef: {
-            EN: "Warning definition",
-            FR: "Définition des avertissements",
-            GEO: "გარფთხილებების განმარტება"
+            EN: "Warning menu",
+            FR: "Menu des avertissements",
+            GEO: "გარფთხილებების მენიუ"
         },
         modAtt: {
-            EN: "Modeling attacker profiles",
-            FR: "Modélisation des profils d'attaquants",
-            GEO: "შემტევი პროფილების მოდელირება"
+            EN: "Analyzing under attacker profiles",
+            FR: "???",
+            GEO: "ანგარიშის განსხვავებული პროფილის შეტევებზე"
         },
         manmod: {
             EN: "Attacker profile in manual mode",
@@ -154,15 +173,10 @@ const text = {
             FR: "Profils d'attaquant en mode pré-définis",
             GEO: "შემტევი პროფილი აუტომატური რეჟიმი"
         },
-        lauana: {
-            EN: "Launching analysis",
-            FR: "Lancement de l'analyse",
-            GEO: "ანალიზის გაშვება"
-        },
         dynAccGra: {
-            EN: "Dynamic access graph",
-            FR: "Graphe d'accès dynamique",
-            GEO: "დინამიური შეღწევის გრაფიკი"
+            EN: "Dynamic account access graph",
+            FR: "??? Graphe d'accès dynamique",
+            GEO: "ანგარიშის დინამიური შეღწევის გრაფიკი"
         },
         creRes: {
             EN: "Creating a Resource",
@@ -173,18 +187,13 @@ const text = {
             EN: "Menu for Resource ",
             FR: "Menu d'une ressource",
             GEO: "რესურსების მენიუ"
-        },
-        resMod: {
-            EN: "Resource modification",
-            FR: "Modification des informations liées à une ressource",
-            GEO: "რესურსების ცვლილება"
-        },
+        }
     },
     contacts: {
         title: {
-            EN: "Contacts",
-            FR: "Contacts",
-            GEO: "საკონტაქტო"
+            EN: "Project",
+            FR: "Projet",
+            GEO: "პროექტი"
         },
         team: [
             {
@@ -243,61 +252,11 @@ const text = {
             GEO: ""
         },
         supervisor_text: {
-            EN: "This project is supervised by Dr. Barbara Fila, a lecturer at INSA Rennes and a researcher at IRISA, specializing in security. This project is carried out in collaboration with Dr. Sasa Radomirovic, a researcher at the University of Surrey specializing in formal security modeling.",
-            FR: "Ce projet est encadré par Barbara Fila, enseignante à l'INSA de Rennes et chercheuse à l'IRISA, spécialisée en sécurité. Ce projet est mené en collaboration avec Saša Radomirović, chercheur à l'université de Surrey et spécialisé dans la modélisation formelle de la sécurité.",
-            GEO: "ამ პროექტს ხელმძღვანელობს დოქტორი ბარბარა ფილა, რომელიც არის ლექტორი INSA Rennes-ში და ამასთანავე არის მკვლევარი IRISA-ში, უსაფრთხოების მიმართულებით. ეს პროექტი მიმდინარეობს დოქტორ საშა რადომიროვიჩთან კოლაბორაციაში. იგი არის მკვლევარი ფორმალური უსაფრთხოების მოდელირების მიმართულებით სურეის უნივერსიტეტში."
+            EN: "New version of Maestro software - Maestro+ is developed by 4th year students at INSA Rennes. This project is supervised by Barbara Fila and Sasa Radomirovic.",
+            FR: "La nouvelle version du logiciel Maestro, appelée Maestro+, a été développée par des étudiants de 4e année du département informatique de l'INSA Rennes. Ce projet est encadré par Barbara Fila et Saša Radomirović.",
+            GEO: "Maestro აპლიკაციის ახალი ვერსია - Maestro+ განვითარებულია INSA Rennes-ს მე-4 კურსელების მიერ. ამ პროექტს ხელმძღვანელობს ბარბარა ფილა და საშა რადომიროვიჩი."
         },
-        supervisors: [
-            {
-                name: "Barbara Fila",
-                level: "Ph.D.",
-                link: "https://people.irisa.fr/Barbara.Fila/",
-                role: {
-                    EN: "Supervisor",
-                    FR: "Superviseuse",
-                    GEO: "ხელმძღვანელი"
-                }
-            },
-            {
-                name: "Sasa Radomirovic",
-                level: "Ph.D.",
-                link: "https://www.surrey.ac.uk/people/sasa-radomirovic",
-                role: {
-                    EN: "Supervisor",
-                    FR: "Superviseur",
-                    GEO: "ხელმძღვანელი"
-                }
-            }
-        ],
-        insa: {
-            name: "INSA Rennes",
-            contacts: {
-                address: "20, Avenue des Buttes de Coësmes",
-                city: "Rennes",
-                country: "France",
-                number: "02 23 23 82 00"
-            }
-        },
-        address: {
-            EN: "Address",
-            FR: "Adresse",
-            GEO: "მისამართი"
-        },
-        city :{
-            EN: "City",
-            FR: "Ville",
-            GEO: "ქალაქი"
-        },
-        country: {
-            EN: "Country",
-            FR: "Pays",
-            GEO: "ქვეყანა"
-        },
-        number: {
-            EN: "number",
-            FR: "Nombre",
-            GEO: "ნომერი"
-        }
+        supervisors: [ "Barbara Fila", "Sasa Radomirovic"],
     }
 }
 
