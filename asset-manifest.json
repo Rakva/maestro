@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maestro/static/css/main.91f98682.css",
-    "main.js": "/maestro/static/js/main.7b4b0f33.js",
+    "main.css": "/maestro/static/css/main.2bf7f209.css",
+    "main.js": "/maestro/static/js/main.fe515c15.js",
     "static/js/453.4f57d60b.chunk.js": "/maestro/static/js/453.4f57d60b.chunk.js",
     "static/media/maestro_logo.png": "/maestro/static/media/maestro_logo.43591737f3e4fae2b63c.png",
     "static/media/maestro_warnings_on_Screen.png": "/maestro/static/media/maestro_warnings_on_Screen.bd1caca09c35b18dffc3.png",
@@ -9,16 +9,19 @@
     "static/media/maestro_warnings.png": "/maestro/static/media/maestro_warnings.7dc3dc7230cd858e7192.png",
     "static/media/maestro_home.png": "/maestro/static/media/maestro_home.bab15bde924ab816fbf3.png",
     "static/media/maestro_3.png": "/maestro/static/media/maestro_3.9bd0179fd2604a8e8f06.png",
+    "static/media/background.jpg": "/maestro/static/media/background.898313514f4807f38e64.jpg",
+    "static/media/automatic.png": "/maestro/static/media/automatic.6ba9f799f52914365137.png",
     "static/media/Insa_rennes_logo.svg": "/maestro/static/media/Insa_rennes_logo.0be52b9d6881625e43bd45cdeafee69d.svg",
+    "static/media/manual.png": "/maestro/static/media/manual.9bc5ecab3292344a2f99.png",
     "index.html": "/maestro/index.html",
     "static/media/menu.svg": "/maestro/static/media/menu.d80675976eb3e9478e59aa5bd6375156.svg",
     "static/media/close.svg": "/maestro/static/media/close.6f68decd459a9701ee96041ec96daeb4.svg",
-    "main.91f98682.css.map": "/maestro/static/css/main.91f98682.css.map",
-    "main.7b4b0f33.js.map": "/maestro/static/js/main.7b4b0f33.js.map",
+    "main.2bf7f209.css.map": "/maestro/static/css/main.2bf7f209.css.map",
+    "main.fe515c15.js.map": "/maestro/static/js/main.fe515c15.js.map",
     "453.4f57d60b.chunk.js.map": "/maestro/static/js/453.4f57d60b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91f98682.css",
-    "static/js/main.7b4b0f33.js"
+    "static/css/main.2bf7f209.css",
+    "static/js/main.fe515c15.js"
   ]
 }
