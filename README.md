@@ -1,9 +1,5 @@
 To do:
 
-By Team: 
-- Discuss text for Context Section?
-- Screens for manual and automatic attack modes
-
 By Lea: 
 - An application allowing a user to manage and analyze their account ecosystem.
 - Dynamic account access graph

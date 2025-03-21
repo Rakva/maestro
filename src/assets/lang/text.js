@@ -45,7 +45,7 @@ const text = {
             GEO: "გარემოება"
         },
         subtext: {
-            EN: "Real life attacks confirm that accessing somebody else's account by answering a security question, using a secondary account, or calling a customer service center is often much easier and less time consuming than cracking the actual account's password. ",
+            EN: "Real life attacks confirm that accessing somebody else's account by using a secondary account, calling a customer service center and answering there security question is often much easier and less time consuming than cracking the actual account's password.",
             FR: "Les attaques informatiques sont aujourd'hui un risque de la vie courante. Elles confirment que l'accès au compte d'un utilisateur peut se faire en répondant à une question de sécurité, en utilisant un compte tierce ou en appelant un centre de service client. Ces intermédiaires constituent un moyen souvent plus simple et moins long pour accéder à un compte d'un utilisateur, plutôt que de craquer le mot de passe de ce dernier.",
             GEO: "რეალური შეტევები ადასტურებს, რომ სხვის ანგარიშზე შეღწევა უსაფრთხოების შეკითხვის პასუხის გაცემით, მეორეული ანგარიშის გამოყენებით ან მომსახურების სერვის ცენტრთან დაკავშირებით უფრო მარტივია და ნაკლები დროის მომთხოვნი, ვიდრე მთავარი ანგარიშის პაროლის გატეხვა."
         }
@@ -256,7 +256,24 @@ const text = {
             FR: "La nouvelle version du logiciel Maestro, appelée Maestro+, a été développée par des étudiants de 4e année du département informatique de l'INSA Rennes. Ce projet est encadré par Barbara Fila et Saša Radomirović.",
             GEO: "Maestro აპლიკაციის ახალი ვერსია - Maestro+ განვითარებულია INSA Rennes-ს მე-4 კურსელების მიერ. ამ პროექტს ხელმძღვანელობს ბარბარა ფილა და საშა რადომიროვიჩი."
         },
-        supervisors: [ "Barbara Fila", "Sasa Radomirovic"],
+        supervisors: [ 
+            {
+                name: "Barbara Fila",
+                role: {
+                    EN: "Supervisor",
+                    FR: "Superviseuse",
+                    GEO: "ხელმძღვანელი"
+                }
+            }, 
+            {
+                name: "Sasa Radomirovic",
+                role: {
+                    EN: "Supervisor",
+                    FR: "Superviseur",
+                    GEO: "ხელმძღვანელი"
+                }
+            }
+        ],
     }
 }
 

@@ -30,9 +30,11 @@
 }
 .team_member_name{
     align-self: center;
+    text-align: center;
 }
 .team_member_role{
     align-self: center;
+    text-align: center;
 }
 .supervisors {
     width: 100%;
