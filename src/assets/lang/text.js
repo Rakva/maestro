@@ -21,9 +21,9 @@ const text = {
             GEO: "მაესტრო+"
         },
         contacts: {
-            EN: "Project",
-            FR: "Projet",
-            GEO: "პროექტი"
+            EN: "Team",
+            FR: "Équipe",
+            GEO: "ჯგუფი"
         }
     },
     home: {
@@ -191,9 +191,9 @@ const text = {
     },
     contacts: {
         title: {
-            EN: "Project",
-            FR: "Projet",
-            GEO: "პროექტი"
+            EN: "Team",
+            FR: "Équipe",
+            GEO: "ჯგუფი"
         },
         team: [
             {
@@ -252,9 +252,9 @@ const text = {
             GEO: ""
         },
         supervisor_text: {
-            EN: "New version of Maestro software - Maestro+ is developed by 4th year students at INSA Rennes. This project is supervised by Barbara Fila and Sasa Radomirovic.",
-            FR: "La nouvelle version du logiciel Maestro, appelée Maestro+, a été développée par des étudiants de 4e année du département informatique de l'INSA Rennes. Ce projet est encadré par Barbara Fila et Saša Radomirović.",
-            GEO: "Maestro აპლიკაციის ახალი ვერსია - Maestro+ განვითარებულია INSA Rennes-ს მე-4 კურსელების მიერ. ამ პროექტს ხელმძღვანელობს ბარბარა ფილა და საშა რადომიროვიჩი."
+            EN: "New version of Maestro software - Maestro+ is developed by 4th year students at INSA Rennes.",
+            FR: "La nouvelle version du logiciel Maestro, appelée Maestro+, a été développée par des étudiants de 4e année du département informatique de l'INSA Rennes.",
+            GEO: "Maestro აპლიკაციის ახალი ვერსია - Maestro+ განვითარებულია INSA Rennes-ს მე-4 კურსელების მიერ."
         },
         supervisors: [ 
             {
