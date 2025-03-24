@@ -45,9 +45,9 @@ function Header({homeRef, contextRef, dictionaryRef, maestroReference, contactsR
     ];
        
     function setLanguage(lang){
-        if (lang === "EN") setLang("FR");
-            else if (lang === "FR") setLang("GEO");
-                else if (lang === "GEO") setLang("EN");
+        if (lang === "EN") setLang("EN");
+            else if (lang === "FR") setLang("FR");
+                else if (lang === "GEO") setLang("GEO");
     }
 
     return <div className="header">
@@ -70,7 +70,7 @@ function Header({homeRef, contextRef, dictionaryRef, maestroReference, contactsR
                 {menu && <div className="lang_list">
                     {languagesNames.map((element, index)=>{
                         return <img 
-                            onClick={()=>setLanguage(lang)}
+                            onClick={()=>setLanguage(element)}
                             className="lang_list_flag" 
                             src={languages[`${element}`]} 
                             key={index} 

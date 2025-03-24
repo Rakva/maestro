@@ -41,9 +41,10 @@ function SideMenu({homeRef, contextRef, dictionaryRef, maestroReference, contact
         ref.current?.scrollIntoView({behavior: 'smooth'})
     }
     function setLanguage(lang){
-        if (lang === "EN") setLang("FR");
-            else if (lang === "FR") setLang("GEO");
-                else if (lang === "GEO") setLang("EN");
+        if (lang === "EN") setLang("EN");
+            else if (lang === "FR") setLang("FR");
+                else if (lang === "GEO") setLang("GEO");
+        setSideMenu(false)
     }
     return <div className={sideMenu ? "side_menu" : "side_menu none"}>
         <div className="pop_up_container">
