@@ -15,7 +15,7 @@
 .maestro_plus_feat_example{
     display: flex;
     position: relative;
-    /* width: 60%; */
+    width: 60%;
     height: 600px;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@
     cursor: pointer;
 }
 .maestro_plus_feat_example_pic{
-    height: 400px; 
+    max-width: 80%;
 }
 .maestro_plus_feat{
     width: 100%;

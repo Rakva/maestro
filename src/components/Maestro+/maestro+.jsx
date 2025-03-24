@@ -2,6 +2,7 @@ import "./maestro+.css"
 import { useState, useRef } from "react";
 import close_black from "../../assets/close_black.png";
 import Features_Func from "../../assets/features/features";
+import maestro from "../../assets/maestro_logo.png"
 import text from "../../assets/lang/text";
 
 function MaestroPlus({setMaestroReference, lang}){
@@ -14,7 +15,7 @@ function MaestroPlus({setMaestroReference, lang}){
     const selectedPicRef = useRef(null);
 
     const [picOn, setPicOn] = useState(false);
-    const [picSrc, setPicSrc] = useState("");
+    const [picSrc, setPicSrc] = useState(maestro);
 
     function clicking(num){
         setPicOn(true);
@@ -59,13 +60,14 @@ function MaestroPlus({setMaestroReference, lang}){
                 })
             }
         </div> 
-        {
-        picOn && <div className="maestro_plus_feat_example" ref={selectedPicRef}>
-            <img className="maestro_plus_feat_close" onClick={()=>{setPicOn(false)}} src={close_black} alt="closing button icon"/> {/*position absolute, on top right */}
+        <div className="maestro_plus_feat_example" ref={selectedPicRef}>
+            <img 
+                className={picSrc === maestro ? "none" : "maestro_plus_feat_close"} 
+                onClick={()=>{setPicSrc(maestro)}} 
+                src={close_black} 
+                alt="closing button icon"/>
             <img className="maestro_plus_feat_example_pic" src={picSrc} alt="selected"/>
         </div>
-        }
-
     </div>
 }
 
