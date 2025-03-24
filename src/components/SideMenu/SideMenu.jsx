@@ -11,7 +11,8 @@ function SideMenu({homeRef, contextRef, dictionaryRef, maestroReference, contact
         FR: FR,
         GEO: GEO
     }
-    
+    const languagesNames = ["EN", "FR", "GEO"];
+
     const sections = [
         {
             name: text.header.home[`${lang}`],
@@ -56,7 +57,18 @@ function SideMenu({homeRef, contextRef, dictionaryRef, maestroReference, contact
                             </ul>
                         })}
                     </li>   
-                    <img src={languages[`${lang}`]} className="menu_languages" onClick={()=>setLanguage(lang)}/>
+                    <div className="lang_row">
+                        {
+                            languagesNames.map((element, index)=>{
+                                return <img 
+                                    src={languages[`${element}`]}
+                                    key={index} 
+                                    className="menu_languages" 
+                                    onClick={()=>setLanguage(element)}
+                                />
+                            })
+                        }
+                    </div>
                 </div>
         </div>
     </div>
