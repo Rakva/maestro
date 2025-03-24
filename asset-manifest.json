@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maestro/static/css/main.096de5ed.css",
-    "main.js": "/maestro/static/js/main.8a3e1495.js",
+    "main.css": "/maestro/static/css/main.5bacf9fe.css",
+    "main.js": "/maestro/static/js/main.36cb4224.js",
     "static/js/453.4f57d60b.chunk.js": "/maestro/static/js/453.4f57d60b.chunk.js",
     "static/media/maestro_logo.png": "/maestro/static/media/maestro_logo.43591737f3e4fae2b63c.png",
     "static/media/maestro_warnings_on_Screen.png": "/maestro/static/media/maestro_warnings_on_Screen.bd1caca09c35b18dffc3.png",
@@ -16,12 +16,12 @@
     "index.html": "/maestro/index.html",
     "static/media/menu.svg": "/maestro/static/media/menu.d80675976eb3e9478e59aa5bd6375156.svg",
     "static/media/close.svg": "/maestro/static/media/close.6f68decd459a9701ee96041ec96daeb4.svg",
-    "main.096de5ed.css.map": "/maestro/static/css/main.096de5ed.css.map",
-    "main.8a3e1495.js.map": "/maestro/static/js/main.8a3e1495.js.map",
+    "main.5bacf9fe.css.map": "/maestro/static/css/main.5bacf9fe.css.map",
+    "main.36cb4224.js.map": "/maestro/static/js/main.36cb4224.js.map",
     "453.4f57d60b.chunk.js.map": "/maestro/static/js/453.4f57d60b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.096de5ed.css",
-    "static/js/main.8a3e1495.js"
+    "static/css/main.5bacf9fe.css",
+    "static/js/main.36cb4224.js"
   ]
 }
