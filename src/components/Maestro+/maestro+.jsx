@@ -14,11 +14,9 @@ function MaestroPlus({setMaestroReference, lang}){
 
     const selectedPicRef = useRef(null);
 
-    const [picOn, setPicOn] = useState(false);
     const [picSrc, setPicSrc] = useState(maestro);
 
     function clicking(num){
-        setPicOn(true);
         setPicSrc(num);
         selectedPicRef.current?.scrollIntoView({behavior: 'smooth'})
     }
