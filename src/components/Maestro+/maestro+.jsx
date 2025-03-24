@@ -22,7 +22,7 @@ function MaestroPlus({setMaestroReference, lang}){
         setPicSrc(num);
         selectedPicRef.current?.scrollIntoView({behavior: 'smooth'})
     }
-    return <div className="maestro_plus" style={{height: picOn ? 1100 : 600}} ref={maestro_reference}>
+    return <div className="maestro_plus" ref={maestro_reference}>
         <h1 className="maestro_plus_title">{text.maestroPlus.title[`${lang}`]}</h1>
         <span className="maestro_plus_subtext">
         {text.maestroPlus.subtext.part1[`${lang}`]}{' '}

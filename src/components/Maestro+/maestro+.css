@@ -1,5 +1,6 @@
 .maestro_plus {
     width: 90%;
+    height: 1100;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
