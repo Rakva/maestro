@@ -2,7 +2,7 @@ const text = {
     header: {
         home: {
             EN: "Home",
-            FR: "???",
+            FR: "Accueil",
             GEO: "დასაწყისი"
         },
         context: {
@@ -59,19 +59,19 @@ const text = {
             },
             explanation: {
                 EN: "Graphical representation of a user account ecosystem.",
-                FR: "???",
+                FR: "Représentation graphique d’un écosystème de comptes d'un utilisateur",
                 GEO: "მომხმარებლის ანგარიშის ეკოსისტემის გრაფიკული წარმოდგენა"
             }
         },
         {
             term: {
                 EN: "User account ecosystem",
-                FR: "???",
+                FR: "Écosystème de comptes d'un utilisateur",
                 GEO: "მომხმარებლის ანგარიშის ეკოსისტემა"
             },
             explanation: {
                 EN: "All accounts of a user as well as devices, credentials, keys and other resources necessary to access them, together with connections between them.",
-                FR: "???",
+                FR: "Tous les comptes d’un utilisateur ainsi que les appareils, les identifiants, les clés et autres ressources nécessaires pour y accéder, ainsi que les connexions entre eux.",
                 GEO: "მომხმარებლის ყველა ანგარიში, მოწყობილობებთან, გასაღებებთან და სხვა რესურსებთან ერთად, რომლებიც საჭიროა ანგარიშზე შესაღწევად და კავშირი მათ შორის."
             }
         },
@@ -83,7 +83,7 @@ const text = {
             },
             explanation: {
                 EN: "An application allowing a user to manage and analyze their account ecosystem.",
-                FR: "???",
+                FR: "Une application permettant à un utilisateur de gérer et d’analyser son écosystème de comptes.",
                 GEO: "აპლიკაცია, რომელიც საშუალებას აძლევს მომხმარებელს მართოს და გაანალიზოს თავიანთი ანგარიშის ეკოსისტემა."
             },
         },
@@ -95,7 +95,7 @@ const text = {
             },
             explanation: {
                 EN: "After each modification software automatically scans database, computes result and updates the graph.",
-                FR: "???",
+                FR: "Après chaque modification, le logiciel met à jour automatiquement la base de données, relance les analyses de sécurité et met à jour le graphe d'accès.",
                 GEO: "თითოეული ცვლილების შემდეგ, პროგრამა ავტომატურად აანალიზებს მონაცემთა ბაზას, გამოითვლის შედეგს და განაახლებს გრაფიკს."
             },
         }
@@ -160,7 +160,7 @@ const text = {
         },
         modAtt: {
             EN: "Analyzing under attacker profiles",
-            FR: "???",
+            FR: "Analyse  par profils d'attaquants",
             GEO: "ანგარიშის განსხვავებული პროფილის შეტევებზე"
         },
         manmod: {
@@ -175,7 +175,7 @@ const text = {
         },
         dynAccGra: {
             EN: "Dynamic account access graph",
-            FR: "??? Graphe d'accès dynamique",
+            FR: "Graphique d’accès dynamique représentant l'écosystème de comptes de l'utilisateur",
             GEO: "ანგარიშის დინამიური შეღწევის გრაფიკი"
         },
         creRes: {
@@ -266,7 +266,7 @@ const text = {
                 }
             }, 
             {
-                name: "Sasa Radomirovic",
+                name: "Saša Radomirović",
                 role: {
                     EN: "Supervisor",
                     FR: "Superviseur",
