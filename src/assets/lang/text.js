@@ -109,32 +109,32 @@ const text = {
         subtext: {
           part1: {
             EN: "Maestro+ is an account manager, new version of Maestro software. The objective of Maestro+ is following: ",
-            FR: "???",
+            FR: "Maestro+ est un gestionnaire de comptes, une nouvelle version du logiciel Maestro. L'objectif de Maestro+ est le suivant :",
             GEO: "Maestro+ არის ანგარიშის მართვის აპლიკაცია, რომელიც Maestro-ს ახალი ვერსია. Maestro+ მიზნებია:"
           },
           part2: {
             EN: "identifing the attacks that the user's account ecosystem is potentially subject to, Analyzing the user's account ecosystem under risk and creating intuitive interface for access graphs.",
-            FR: "???",
+            FR: "Identifier les attaques auxquelles l'écosystème de comptes de l'utilisateur est potentiellement vulnérable, Analyser l'écosystème de compte de l'utilisateur et Créer une interface intuitive pour créer des graphiques d'accès",
             GEO: "ამოიცნოს შეტევები რომელიც პოტენციურად ემუქრება მომხმარებლის ანგარიშის ეკოსისტემას, გაანალიზოს მომხმარებლის ანგარიშის ეკოსისტემა რისკებზე და შექმნას ინტუიციური ინტერფეისი შეღწევის გრაფიკისთვის."
           },
           part3: {
             EN: "Application is based on ",
-            FR: "???",
-            GEO: ""
+            FR: "l'application est basée sur",
+            GEO: "აპლიკაცია დაფუძვნებულია"
           },
           part4: {
             EN: "research-article",
-            FR: "???",
-            GEO: "???"
+            FR: "les recherches",
+            GEO: "კვლევითი ნაშრომი"
           },
           part5: {
             EN: `"User Account Access Graphs", written by Sven Hammann, Saša Radomirović, Ralf Sasse, David Basin. `,
-            FR: "???",
-            GEO: "???"
+            FR: `"User Account Access Graphs", de Sven Hammann, Saša Radomirović, Ralf Sasse, David Basin.`,
+            GEO: `"User Account Access Graphs",ავტორები: სვენ ჰამანი, საშა რამოდიროვიჩი, რალფ სასე, დეივიდ ბასინი.`
           },
           part6: {
             EN: "The main features of Maestro+ are: ",
-            FR: "???",
+            FR: "Les principales fonctionnalités de Maestro+ sont :",
             GEO: "Maestro+ მთავარი ფუნქციებია: "
           }
         },
