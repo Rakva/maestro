@@ -45,9 +45,9 @@ const text = {
             GEO: "გარემოება"
         },
         subtext: {
-            EN: "Real life attacks confirm that accessing somebody else's account by using a secondary account, calling a customer service center and answering there security question is often much easier and less time consuming than cracking the actual account's password.",
-            FR: "Les attaques informatiques sont aujourd'hui un risque de la vie courante. Elles confirment que l'accès au compte d'un utilisateur peut se faire en répondant à une question de sécurité, en utilisant un compte tierce ou en appelant un centre de service client. Ces intermédiaires constituent un moyen souvent plus simple et moins long pour accéder à un compte d'un utilisateur, plutôt que de craquer le mot de passe de ce dernier.",
-            GEO: "რეალური შეტევები ადასტურებს, რომ სხვის ანგარიშზე შეღწევა უსაფრთხოების შეკითხვის პასუხის გაცემით, მეორეული ანგარიშის გამოყენებით ან მომსახურების სერვის ცენტრთან დაკავშირებით უფრო მარტივია და ნაკლები დროის მომთხოვნი, ვიდრე მთავარი ანგარიშის პაროლის გატეხვა."
+            EN: "Real life attacks confirm that accessing somebody else's account by using a secondary account, or calling a customer service center and answering there security question is often much easier and less time consuming than cracking the actual account's password.",
+            FR: "Les attaques informatiques sont aujourd'hui un risque de la vie courante. Elles confirment que l'accès au compte d'un utilisateur peut se faire en utilisant un compte tierce ou répondant à une question de sécurité et en appelant un centre de service client. Ces intermédiaires constituent un moyen souvent plus simple et moins long pour accéder à un compte d'un utilisateur, plutôt que de craquer le mot de passe de ce dernier.",
+            GEO: "რეალური შეტევები ადასტურებს, რომ სხვის ანგარიშზე შეღწევა მეორეული ანგარიშის გამოყენებით, ან მომსახურების სერვის ცენტრთან დაკავშირებით და უსაფრთხოების შეკითხვის პასუხის გაცემით უფრო მარტივია და ნაკლები დროის მომთხოვნი, ვიდრე მთავარი ანგარიშის პაროლის გატეხვა."
         }
     },
     dictionary: [
@@ -205,6 +205,14 @@ const text = {
                 },
                 linkedIn: "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-brunet-1367362b3/",
             },{
+                name: "Sulaymane Dagnet",
+                role: {
+                    EN: "Project management manager",
+                    FR: "Responsable de gestion de projet",
+                    GEO: "პროექტის მენეჯმენტის მენეჯერი"
+                },
+                linkedIn: "https://www.linkedin.com/in/sdagnet/?locale=fr_FR",
+            },{
                 name: "Lea Griffon",
                 role: {
                     EN: "Project manager",
@@ -229,14 +237,6 @@ const text = {
                 },
                 linkedIn: "https://www.linkedin.com/in/lucas-lopez-4b7b46228/",
             },{
-                name: "Sulaymane Dagnet",
-                role: {
-                    EN: "Project management manager",
-                    FR: "Responsable de gestion de projet",
-                    GEO: "პროექტის მენეჯმენტის მენეჯერი"
-                },
-                linkedIn: "https://www.linkedin.com/in/sdagnet/?locale=fr_FR",
-            },{
                 name: "Luka Rakviashvili",
                 role: {
                     EN: "Web developer",
@@ -252,9 +252,9 @@ const text = {
             GEO: ""
         },
         supervisor_text: {
-            EN: "New version of Maestro software - Maestro+ is developed by 4th year students at INSA Rennes.",
-            FR: "La nouvelle version du logiciel Maestro, appelée Maestro+, a été développée par des étudiants de 4e année du département informatique de l'INSA Rennes.",
-            GEO: "Maestro აპლიკაციის ახალი ვერსია - Maestro+ განვითარებულია INSA Rennes-ს მე-4 კურსელების მიერ."
+            EN: "Maestro+ is developed by 4th year students at INSA Rennes.",
+            FR: "Maestro+ a été développée par des étudiants de 4e année du département informatique de l'INSA Rennes.",
+            GEO: "Maestro+ განვითარებულია INSA Rennes-ს მე-4 კურსელების მიერ."
         },
         supervisors: [ 
             {
