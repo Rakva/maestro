@@ -23,7 +23,7 @@ function Dictionary({setDictionaryRef, lang}){
         <div className="dictionary_pause" onClick={()=>{intervalChecker(interval)}}>
             <img src={interval === 3000 ? pause : play} className="dictionary_pause_img" alt="pause play icon"/>
         </div>
-        <Carousel className="dictionary_carousel" indicators={true} data-bs-theme="dark" interval={interval} >
+        <Carousel className="dictionary_carousel" indicators={true} data-bs-theme="dark">
         {
             text.dictionary.map((element,index)=>{
                 return <Carousel.Item className="dictionary_carousel_item" key={index}>

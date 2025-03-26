@@ -1,9 +1,8 @@
 import maestro_home from "../../assets/maestro/maestro_home.png";
 import maestro_3 from "../../assets/maestro/maestro_3.png";
 import maestro_warnings from "../../assets/maestro/maestro_warnings.png";
-import manual from "../../assets/maestro/manual.png";
+import manual from "../../assets/maestro/manual.webp";
 import automatic from "../../assets/maestro/automatic.png";
-import nodes from "../../assets/maestro/nodes.png";
 import maestro_warnings_on_screen from "../../assets/maestro/maestro_warnings_on_Screen.png";
 import text from "../lang/text";
 
