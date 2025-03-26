@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maestro/static/css/main.ed95040b.css",
-    "main.js": "/maestro/static/js/main.a7dd4999.js",
+    "main.js": "/maestro/static/js/main.d1ec0d03.js",
     "static/js/453.4f57d60b.chunk.js": "/maestro/static/js/453.4f57d60b.chunk.js",
     "static/media/maestro_logo.png": "/maestro/static/media/maestro_logo.43591737f3e4fae2b63c.png",
     "static/media/maestro_warnings_on_Screen.png": "/maestro/static/media/maestro_warnings_on_Screen.bd1caca09c35b18dffc3.png",
@@ -17,11 +17,11 @@
     "static/media/menu.svg": "/maestro/static/media/menu.d80675976eb3e9478e59aa5bd6375156.svg",
     "static/media/close.svg": "/maestro/static/media/close.6f68decd459a9701ee96041ec96daeb4.svg",
     "main.ed95040b.css.map": "/maestro/static/css/main.ed95040b.css.map",
-    "main.a7dd4999.js.map": "/maestro/static/js/main.a7dd4999.js.map",
+    "main.d1ec0d03.js.map": "/maestro/static/js/main.d1ec0d03.js.map",
     "453.4f57d60b.chunk.js.map": "/maestro/static/js/453.4f57d60b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed95040b.css",
-    "static/js/main.a7dd4999.js"
+    "static/js/main.d1ec0d03.js"
   ]
 }
