@@ -16,9 +16,9 @@ const text = {
             GEO: "ლექსიკონი"
         },
         maestroPlus: {
-            EN: "Maestro+",
-            FR: "Maestro+",
-            GEO: "მაესტრო+"
+            EN: "Features",
+            FR: "Fonctionnalités",
+            GEO: "ფუნქციონალი"
         },
         contacts: {
             EN: "Team",
@@ -34,7 +34,7 @@ const text = {
         },
         subtext: {
             EN: "The security of an online account depends not only on that account's protection strength, but also on the dependencies between the different accounts that a user has.",
-            FR: "La sécurité d'un compte en ligne dépend non seulement de la force de protection de ce compte, mais aussi des dépendances entre les différents comptes de l'utilisateur.",
+            FR: "La sécurité d’un compte en ligne ne dépend pas seulement de la solidité de sa protection, mais aussi des dépendances entre les différents comptes qu’un utilisateur possède.",
             GEO: "ონლაინ ანგარიშების უსაფრთხოება დამოკიდებულია არა მხოლოდ მისი დაცვის სიძლიერეზე, არამედ მასთან ერთად მომხმარებლის ანგარიშებს შორის დამოკიდებულებაზეც."
         }
     },
@@ -102,24 +102,24 @@ const text = {
     ],
     maestroPlus: {
         title: {
-            EN: "Maestro+",
-            FR: "Maestro+",
-            GEO: "Maestro+"
+            EN: "Features",
+            FR: "Fonctionnalités",
+            GEO: "ფუნქციონალი"
         },
         subtext: {
           part1: {
-            EN: "Maestro+ is an account manager, new version of Maestro software. The objective of Maestro+ is following: ",
-            FR: "Maestro+ est un gestionnaire de comptes, une nouvelle version du logiciel Maestro. L'objectif de Maestro+ est le suivant :",
+            EN: "Maestro+ is an account manager, new version of Maestro. The objectives of the software are the following: ",
+            FR: "Maestro+ est un gestionnaire de comptes, une nouvelle version de Maestro. Les objectifs du logiciel sont les suivants: ",
             GEO: "Maestro+ არის ანგარიშის მართვის აპლიკაცია, რომელიც Maestro-ს ახალი ვერსია. Maestro+ მიზნებია:"
           },
           part2: {
             EN: "identifing the attacks that the user's account ecosystem is potentially subject to, Analyzing the user's account ecosystem under risk and creating intuitive interface for access graphs.",
-            FR: "Identifier les attaques auxquelles l'écosystème de comptes de l'utilisateur est potentiellement vulnérable, Analyser l'écosystème de compte de l'utilisateur et Créer une interface intuitive pour créer des graphiques d'accès",
+            FR: "identifier les attaques auxquelles l'écosystème de comptes de l'utilisateur est potentiellement vulnérable, analyser l'écosystème de compte de l'utilisateur et créer une interface intuitive pour créer des graphiques d'accès",
             GEO: "ამოიცნოს შეტევები რომელიც პოტენციურად ემუქრება მომხმარებლის ანგარიშის ეკოსისტემას, გაანალიზოს მომხმარებლის ანგარიშის ეკოსისტემა რისკებზე და შექმნას ინტუიციური ინტერფეისი შეღწევის გრაფიკისთვის."
           },
           part3: {
             EN: "Application is based on ",
-            FR: "l'application est basée sur",
+            FR: "l'application est basée sur ",
             GEO: "აპლიკაცია დაფუძვნებულია"
           },
           part4: {
@@ -129,7 +129,7 @@ const text = {
           },
           part5: {
             EN: `"User Account Access Graphs", written by Sven Hammann, Saša Radomirović, Ralf Sasse, David Basin. `,
-            FR: `"User Account Access Graphs", de Sven Hammann, Saša Radomirović, Ralf Sasse, David Basin.`,
+            FR: `"User Account Access Graphs", de Sven Hammann, Saša Radomirović, Ralf Sasse, David Basin. `,
             GEO: `"User Account Access Graphs",ავტორები: სვენ ჰამანი, საშა რამოდიროვიჩი, რალფ სასე, დეივიდ ბასინი.`
           },
           part6: {
@@ -175,7 +175,7 @@ const text = {
         },
         dynAccGra: {
             EN: "Dynamic account access graph",
-            FR: "Graphique d’accès dynamique représentant l'écosystème de comptes de l'utilisateur",
+            FR: "Graph d'accès dynamique",
             GEO: "ანგარიშის დინამიური შეღწევის გრაფიკი"
         },
         creRes: {
@@ -253,7 +253,7 @@ const text = {
         },
         supervisor_text: {
             EN: "Maestro+ is developed by 4th year students at INSA Rennes.",
-            FR: "Maestro+ a été développée par des étudiants de 4e année du département informatique de l'INSA Rennes.",
+            fr: "Maestro+ a été développé par des étudiants de 4e année du département informatique de l'INSA Rennes.",
             GEO: "Maestro+ განვითარებულია INSA Rennes-ს მე-4 კურსელების მიერ."
         },
         supervisors: [ 
