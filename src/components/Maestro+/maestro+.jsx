@@ -64,7 +64,7 @@ function MaestroPlus({setMaestroReference, lang}){
                 onClick={()=>{setPicSrc(maestro)}} 
                 src={close_black} 
                 alt="closing button icon"/>
-            <img className="maestro_plus_feat_example_pic" src={picSrc} alt="selected"/>
+            <img className={picSrc === maestro ? "features_logo" : "maestro_plus_feat_example_pic"} src={picSrc} alt="selected"/>
         </div>
     </div>
 }

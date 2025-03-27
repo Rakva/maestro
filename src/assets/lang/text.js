@@ -179,12 +179,12 @@ const text = {
             GEO: "ანგარიშის დინამიური შეღწევის გრაფიკი"
         },
         creRes: {
-            EN: "Creating a Resource",
+            EN: "Creating a resource",
             FR: "Création d'une ressource",
             GEO: "რესურსის შექმნა"
         },
         menRes: {
-            EN: "Menu for Resource ",
+            EN: "Menu for resource ",
             FR: "Menu d'une ressource",
             GEO: "რესურსების მენიუ"
         }
@@ -197,7 +197,7 @@ const text = {
         },
         team: [
             {
-                name: "Jeremy Brunet",
+                name: "Jérémy Brunet",
                 role: {
                     EN: "Communications manager",
                     FR: "Responsable des communications",
@@ -213,18 +213,18 @@ const text = {
                 },
                 linkedIn: "https://www.linkedin.com/in/sdagnet/?locale=fr_FR",
             },{
-                name: "Lea Griffon",
+                name: "Léa Griffon",
                 role: {
                     EN: "Project manager",
-                    FR: "Chef de projet",
+                    FR: "Cheffe de projet",
                     GEO: "პროექტის მენეჯერი"
                 },
                 linkedIn: "https://www.linkedin.com/in/l%C3%A9a-griffon-599959250/",
             },{
                 name: "Augustin Lavandier",
                 role: {
-                    EN: "Report manager",
-                    FR: "Gestionnaire de rapports",
+                    EN: "Reports manager",
+                    FR: "Gestionnaires de rapports",
                     GEO: "ანგარიშის მენეჯერი"
                 },
                 linkedIn: "https://www.linkedin.com/in/augustin-lavandier/",

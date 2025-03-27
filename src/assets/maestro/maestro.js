@@ -2,7 +2,7 @@ import maestro_home from "../../assets/maestro/maestro_home.png";
 import maestro_2 from "../../assets/maestro/maestro_2.png";
 import maestro_4 from "../../assets/maestro/maestro_4.png";
 import maestro_6 from "../../assets/maestro/maestro_6.png";
-import manual from "../../assets/maestro/manual.webp";
+import manual from "../../assets/maestro/manual.png";
 import automatic from "../../assets/maestro/automatic.png";
 import nodes from "../../assets/maestro/nodes.png";
 import maestro_warnings from "../../assets/maestro/maestro_warnings.png";
